@@ -502,6 +502,7 @@ export class Play extends Phaser.Scene {
     gameOver() {
         // this.scene.restart();
         this.player.destroy();
+        this.input.enabled = false;
         this.time.delayedCall(3000, function(){ this.scene.start('Boot'); }, null, this);
     }
 
