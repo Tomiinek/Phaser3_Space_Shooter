@@ -5,7 +5,7 @@
   }
 
   preload() {
-    this.load.setBaseURL("https://cdn.jsdelivr.net/gh/Tomiinek/Phaser3_Star_Shooter/img");
+    this.load.setBaseURL("https://cdn.jsdelivr.net/gh/Tomiinek/Phaser3_Space_Shooter/img");
     
     this.load.image("numeral0", "numeral0.png");
     this.load.image("numeral1", "numeral1.png");
